@@ -1,0 +1,104 @@
+/* Bedrock-40 site modifications*/
+
+@font-face {
+    font-family: 'Dubai';
+    src: url('assets/Fonts/Dubai-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Dubailight';
+    src: url('assets/Fonts/Dubai-light.ttf');
+}
+
+@font-face {
+    font-family: 'Dubaimedium';
+    src: url('assets/Fonts/Dubai-medium.ttf');
+}
+
+@font-face {
+    font-family: 'Segoe';
+    src: url('assets/Fonts/Segoe Fluent Icons.ttf');
+}
+
+.site-title {
+    font-family: Dubai;
+    color: #0096FA !important;
+}
+
+
+@media screen and (max-width: 600px) {
+    .site-title {
+        margin-right: 50px;
+    }
+}
+
+.page-link {
+    font-family: Dubailight;
+}
+
+.site-nav .page-link {
+    color: #0096FA;
+}
+
+.Activenavigationitem {
+    border-top: 4px solid rgb(0, 150, 250);
+}
+
+.Language {
+    font-weight: lighter;
+    font-size: 7px;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: Dubaimedium;
+}
+
+
+p {
+    font-family: Dubai;
+}
+
+.caption {
+    font-size: small;
+}
+
+b {
+    font-family: Dubailight;
+}
+
+
+.contact-list, .social-media-list .help {
+    font-size: xx-small;
+}
+
+.Horizontalstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.Latinhorizontalstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+img.Headerlogo {
+    width: 44px;
+    height: 42px;
+}
+.Headerlayout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
